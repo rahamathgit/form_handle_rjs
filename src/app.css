@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: darkcyan;
+}
+
+table{
+    font-size: 18px;
+    border: 2px solid orange;
+    border-collapse: collapse;
+}
+
+table td{
+    border: 2px solid orange;
+    padding: 15px 25px;
+    color: white;
+}
+
+table td:first-child{
+    font-weight: 600;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 60px;
+    width: 350px;
+}
+
+
+.input-field input{
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid orange;
+}
+
+.radio-field{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.radio-field input{
+    accent-color: orange;
+}
+
+.check-field{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.check-field input{
+    accent-color: orange;
+}
+
+.cities{
+    margin-top: 30px;
+    text-align: center;
+}
